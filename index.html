@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/home.css?v=0" />
+    <link rel="stylesheet" href="css/navbar.css?v=0" />
+    <link rel="stylesheet" href="css/rotateScreen.css" />
+    <link rel="stylesheet" href="css/botaoToTop.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <title>ValeK</title>
+    <link rel="icon" href="img/valek2.png" />
+  </head>
+  <body onload="loader();">
+    <script>
+      // disable right click
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+
+      document.onkeydown = function (e) {
+        // disable F12 key
+        if (e.keyCode == 123) {
+          return false;
+        }
+
+        // disable ctrl + shift + I key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+          return false;
+        }
+
+        // disable ctrl + shift + J key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+          return false;
+        }
+
+        // disable ctrl + U key
+        if (e.ctrlKey && e.keyCode == 85) {
+          return false;
+        }
+      };
+    </script>
+
+    <div id="rotateScreen">
+      <div class="phone"></div>
+      <div class="message">Rotate your device!</div>
+    </div>
+    <div class="loader">
+      <video autoplay loop muted class="loading">
+        <source src="img/V1.webm" />
+      </video>
+    </div>
+    <script src="javascript/loader.js?v=0"></script>
+    <button id="toTop" onclick="toTop();">
+      <img src="img/V1-imagem.png" /><br />
+    </button>
+    <script src="javascript/toTop.js?v=0"></script>
+    <video autoplay muted loop id="background-video" class="background-video">
+      <source src="img/video-2mb.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="first-container">
+      <nav class="nav-bar" id="nav-bar">
+        <div id="socials">
+          <img onclick="window.location='index.html';" src="img/valek.jpeg" />
+          <span onclick="window.location='index.html';" class="titulo"
+            >valek</span
+          >
+          <div class="hr"></div>
+          <a target="_blank" href="https://www.instagram.com/valek.37"
+            ><i class="fa-brands fa-instagram link link-instagram"></i
+          ></a>
+          <a target="_blank" href="https://www.tiktok.com/@valek.37"
+            ><i class="fa-brands fa-tiktok link link-steam"></i
+          ></a>
+          <a target="_blank" href="https://www.facebook.com/TwitchValeK"
+            ><i class="fa-brands fa-facebook link link-facebook"></i
+          ></a>
+          <a target="_blank" href="https://www.twitch.tv/valek"
+            ><i class="fa-brands fa-twitch link link-twitch"></i
+          ></a>
+          <a target="_blank" href="https://discord.com/invite/tTKbtsX9zx"
+            ><i class="fa-brands fa-discord link link-discord"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.steamcommunity.com/id/valekofficial/"
+            ><i class="fa-brands fa-steam link link-steam"></i
+          ></a>
+          <a target="_blank" href="https://www.faceit.com/pt/players/ValeK37"
+            ><span
+              class="iconify link link-faceit"
+              data-icon="simple-icons:faceit"
+            ></span
+          ></a>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="sobre-mim.html">about me</a>
+          </li>
+          <li>
+            <a href="videos.html">videos</a>
+          </li>
+          <li>
+            <a href="loja.html">store</a>
+          </li>
+          <li>
+            <a href="contactos.html">contacts</a>
+          </li>
+        </ul>
+        <a class="iconMenu" onclick="responsiveMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </div>
+    <script src="javascript/responsiveMenu.js?v=0"></script>
+    <div class="info-socials">
+      <div
+        class="twitch-followers"
+        onclick="window.open('https://www.twitch.tv/valek');"
+      >
+        <i class="fa-brands fa-twitch"></i>
+        <span id="twitch-followers-count">35,715 FOLLOWERS</span>
+      </div>
+      <div
+        class="instagram-followers"
+        onclick="window.open('https://www.instagram.com/valek.37');"
+      >
+        <i class="fa-brands fa-instagram"></i>
+        <span id="instagram-followers-count">2,435 FOLLOWERS</span>
+      </div>
+      <div
+        class="discord-members"
+        onclick="window.open('https://www.discord.com/invite/tTKbtsX9zx');"
+      >
+        <i class="fa-brands fa-discord"></i>
+        <span id="discord-members-count">843 MEMBERS</span>
+      </div>
+      <div class="contador-visitantes">
+        <i class="fa-solid fa-user"></i>
+        <span id="contador"> VISITORS</span>
+      </div>
+    </div>
+    <div style="display: none" class="info-socials2 info-socials-sticky">
+      <div
+        class="twitch-followers"
+        onclick="window.open('https://www.twitch.tv/valek');"
+      >
+        <i class="fa-brands fa-twitch"></i>
+        <span id="twitch-followers-count2">35,715 FOLLOWERS</span>
+      </div>
+      <div
+        class="instagram-followers"
+        onclick="window.open('https://www.instagram.com/valek.37');"
+      >
+        <i class="fa-brands fa-instagram"></i>
+        <span id="instagram-followers-count2">2,435 FOLLOWERS</span>
+      </div>
+      <div class="discord-members">
+        <i class="fa-brands fa-discord"></i>
+        <span id="discord-members-count2">843 MEMBERS</span>
+      </div>
+      <div class="contador-visitantes">
+        <i class="fa-solid fa-user"></i>
+        <span id="contador2"> VISITORS</span>
+      </div>
+    </div>
+    <script src="javascript/followersCounter.js?v=0"></script>
+    <script src="javascript/stickyInfoSocials.js?v=0"></script>
+    <script src="javascript/contadorVisitantes.js?v=0"></script>
+    <div class="cartoes-info">
+      <div class="cartao-sobre-mim grid-item">
+        <img
+          src="img/valek1-fixed.png"
+          onclick="window.location='sobre-mim.html';"
+        />
+        <div class="descricao">
+          <h3>VALEK</h3>
+          <p onclick="window.location='sobre-mim.html';">Ruben Vale 22Years</p>
+        </div>
+      </div>
+      <div class="cartao-redes-sociais">
+        <div class="cartao-twitch grid-item">
+          <img
+            src="img/twitch.png"
+            class="twitch-icon"
+            onclick="window.open('https://www.twitch.tv/valek');"
+          />
+          <div class="descricao">
+            <p onclick="window.open('https:www.twitch.tv/valek');">
+              Watch my livestreams <br />and receive rewards!
+            </p>
+          </div>
+        </div>
+        <div class="cartao-instagram grid-item">
+          <img
+            src="img/instagram.png"
+            class="instagram-icon"
+            onclick="window.open('https://www.instagram.com/valek.37');"
+          />
+          <div class="descricao">
+            <p onclick="window.open('https:www.instagram.com/valek35');">
+              Click and follow<br />
+              to know more about me!
+            </p>
+          </div>
+        </div>
+        <div class="cartao-discord grid-item">
+          <img
+            src="img/discord.png"
+            class="faceit-icon"
+            onclick="window.open('https://www.discord.com/invite/tTKbtsX9zx');"
+          />
+          <div class="descricao">
+            <p onclick="window.open('https://discord.com/invite/tTKbtsX9zx');">
+              Enter my discord and join<br />our community!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tiktok-ESL-highlights">
+      <p>BEST HIGHLIGHTS - TIKTOK<br />@ESLCOUNTERSTRIKE</p>
+      <div class="tiktok-iframes">
+        <blockquote
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@eslcounterstrike/video/7097674255600504070"
+          data-video-id="7097674255600504070"
+        >
+          <section>
+            <a
+              target="_blank"
+              title="@eslcounterstrike"
+              href="https://www.tiktok.com/@eslcounterstrike"
+              >@eslcounterstrike</a
+            >
+            1v4 clutch (via TTV ValeK)
+            <a
+              title="letsplay"
+              target="_blank"
+              href="https://www.tiktok.com/tag/letsplay"
+              >#LetsPlay</a
+            >
+            <a title="esl" target="_blank" href="https://www.tiktok.com/tag/esl"
+              >#ESL</a
+            >
+            <a
+              title="gaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/gaming"
+              >#gaming</a
+            >
+            <a
+              title="csgo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgo"
+              >#csgo</a
+            >
+            <a title="cs" target="_blank" href="https://www.tiktok.com/tag/cs"
+              >#cs</a
+            >
+            <a
+              title="counterstrike"
+              target="_blank"
+              href="https://www.tiktok.com/tag/counterstrike"
+              >#counterstrike</a
+            >
+            <a
+              title="faceit"
+              target="_blank"
+              href="https://www.tiktok.com/tag/faceit"
+              >#faceit</a
+            >
+            <a
+              title="level10"
+              target="_blank"
+              href="https://www.tiktok.com/tag/level10"
+              >#level10</a
+            >
+            <a
+              title="3kelo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/3kelo"
+              >#3kelo</a
+            >
+            <a
+              title="twitch"
+              target="_blank"
+              href="https://www.tiktok.com/tag/twitch"
+              >#twitch</a
+            >
+            <a
+              title="csgohighlights"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgohighlights"
+              >#csgohighlights</a
+            >
+            <a
+              title="csgomoments"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgomoments"
+              >#csgomoments</a
+            >
+            <a
+              title="csgoclips"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgoclips"
+              >#csgoclips</a
+            >
+            <a
+              title="competitivegaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/competitivegaming"
+              >#competitivegaming</a
+            >
+            <a
+              title="streamer"
+              target="_blank"
+              href="https://www.tiktok.com/tag/streamer"
+              >#streamer</a
+            >
+            <a
+              target="_blank"
+              title="♬ original sound - ESL Counter-Strike"
+              href="https://www.tiktok.com/music/original-sound-7097674242577877765"
+              >♬ original sound - ESL Counter-Strike</a
+            >
+          </section>
+        </blockquote>
+        <blockquote
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@eslcounterstrike/video/7084242255896153350"
+          data-video-id="7084242255896153350"
+        >
+          <section>
+            <a
+              target="_blank"
+              title="@eslcounterstrike"
+              href="https://www.tiktok.com/@eslcounterstrike"
+              >@eslcounterstrike</a
+            >
+            1 bullet? No problem @ValeK.37 (via TTV ValeK)
+            <a title="esl" target="_blank" href="https://www.tiktok.com/tag/esl"
+              >#ESL</a
+            >
+            <a
+              title="gaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/gaming"
+              >#gaming</a
+            >
+            <a
+              title="counterstrike"
+              target="_blank"
+              href="https://www.tiktok.com/tag/counterstrike"
+              >#counterstrike</a
+            >
+            <a
+              title="csgo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgo"
+              >#csgo</a
+            >
+            <a title="cs" target="_blank" href="https://www.tiktok.com/tag/cs"
+              >#cs</a
+            >
+            <a
+              title="csgoclips"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgoclips"
+              >#csgoclips</a
+            >
+            <a
+              title="csgohighlights"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgohighlights"
+              >#csgohighlights</a
+            >
+            <a
+              title="csgomoments"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgomoments"
+              >#csgomoments</a
+            >
+            <a
+              title="deagle"
+              target="_blank"
+              href="https://www.tiktok.com/tag/deagle"
+              >#deagle</a
+            >
+            <a
+              title="onetaps"
+              target="_blank"
+              href="https://www.tiktok.com/tag/onetaps"
+              >#onetaps</a
+            >
+            <a
+              title="queota"
+              target="_blank"
+              href="https://www.tiktok.com/tag/queota"
+              >#queota</a
+            >
+            <a
+              title="competitivegaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/competitivegaming"
+              >#competitivegaming</a
+            >
+            <a
+              title="twitch"
+              target="_blank"
+              href="https://www.tiktok.com/tag/twitch"
+              >#twitch</a
+            >
+            <a
+              title="faceit"
+              target="_blank"
+              href="https://www.tiktok.com/tag/faceit"
+              >#faceit</a
+            >
+            <a
+              title="3kelo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/3kelo"
+              >#3kelo</a
+            >
+            <a
+              target="_blank"
+              title="♬ original sound - ESL Counter-Strike"
+              href="https://www.tiktok.com/music/original-sound-7084242229346257669"
+              >♬ original sound - ESL Counter-Strike</a
+            >
+          </section>
+        </blockquote>
+        <blockquote
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@eslcounterstrike/video/7058323628101733637"
+          data-video-id="7058323628101733637"
+        >
+          <section>
+            <a
+              target="_blank"
+              title="@eslcounterstrike"
+              href="https://www.tiktok.com/@eslcounterstrike"
+              >@eslcounterstrike</a
+            >
+            Awp ace holding shadows! (Via TTV ValeK)
+            <a title="esl" target="_blank" href="https://www.tiktok.com/tag/esl"
+              >#ESL</a
+            >
+            <a
+              title="gaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/gaming"
+              >#gaming</a
+            >
+            <a
+              title="csgo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgo"
+              >#csgo</a
+            >
+            <a
+              title="csgoclips"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgoclips"
+              >#csgoclips</a
+            >
+            <a title="cs" target="_blank" href="https://www.tiktok.com/tag/cs"
+              >#cs</a
+            >
+            <a
+              title="counterstrike"
+              target="_blank"
+              href="https://www.tiktok.com/tag/counterstrike"
+              >#counterstrike</a
+            >
+            <a
+              title="competitivegaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/competitivegaming"
+              >#competitivegaming</a
+            >
+            <a
+              title="csgomoments"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgomoments"
+              >#csgomoments</a
+            >
+            <a
+              title="csgohighlights"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgohighlights"
+              >#csgohighlights</a
+            >
+            <a title="awp" target="_blank" href="https://www.tiktok.com/tag/awp"
+              >#awp</a
+            >
+            <a title="ace" target="_blank" href="https://www.tiktok.com/tag/ace"
+              >#ace</a
+            >
+            <a
+              title="mirage"
+              target="_blank"
+              href="https://www.tiktok.com/tag/mirage"
+              >#mirage</a
+            >
+            <a
+              title="twitch"
+              target="_blank"
+              href="https://www.tiktok.com/tag/twitch"
+              >#twitch</a
+            >
+            <a
+              target="_blank"
+              title="♬ original sound - ESL Counter-Strike"
+              href="https://www.tiktok.com/music/original-sound-7058323615364025093"
+              >♬ original sound - ESL Counter-Strike</a
+            >
+          </section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+      </div>
+      <div class="tiktok-iframes">
+        <blockquote
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@eslcounterstrike/video/7050865202706910470"
+          data-video-id="7050865202706910470"
+        >
+          <section>
+            <a
+              target="_blank"
+              title="@eslcounterstrike"
+              href="https://www.tiktok.com/@eslcounterstrike"
+              >@eslcounterstrike</a
+            >
+            Why deagle 1taps are so satisfying? 😏 (via TTV ValeK)
+            <a title="esl" target="_blank" href="https://www.tiktok.com/tag/esl"
+              >#ESL</a
+            >
+            <a
+              title="gaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/gaming"
+              >#gaming</a
+            >
+            <a
+              title="csgo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgo"
+              >#csgo</a
+            >
+            <a
+              title="csgoclips"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgoclips"
+              >#csgoclips</a
+            >
+            <a
+              title="csgomoments"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgomoments"
+              >#csgomoments</a
+            >
+            <a
+              title="csgohighlights"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgohighlights"
+              >#csgohighlights</a
+            >
+            <a
+              title="competitivegaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/competitivegaming"
+              >#competitivegaming</a
+            >
+            <a
+              title="deagle"
+              target="_blank"
+              href="https://www.tiktok.com/tag/deagle"
+              >#deagle</a
+            >
+            <a
+              title="onetaps"
+              target="_blank"
+              href="https://www.tiktok.com/tag/onetaps"
+              >#onetaps</a
+            >
+            <a
+              title="onedeags"
+              target="_blank"
+              href="https://www.tiktok.com/tag/onedeags"
+              >#onedeags</a
+            >
+            <a
+              title="queota"
+              target="_blank"
+              href="https://www.tiktok.com/tag/queota"
+              >#queota</a
+            >
+            <a
+              title="valek"
+              target="_blank"
+              href="https://www.tiktok.com/tag/valek"
+              >#valek</a
+            >
+            <a
+              title="1taps"
+              target="_blank"
+              href="https://www.tiktok.com/tag/1taps"
+              >#1taps</a
+            >
+            <a
+              title="twitch"
+              target="_blank"
+              href="https://www.tiktok.com/tag/twitch"
+              >#twitch</a
+            >
+            <a title="ace" target="_blank" href="https://www.tiktok.com/tag/ace"
+              >#ace</a
+            >
+            <a
+              title="faceit"
+              target="_blank"
+              href="https://www.tiktok.com/tag/faceit"
+              >#faceit</a
+            >
+            <a
+              title="level10"
+              target="_blank"
+              href="https://www.tiktok.com/tag/level10"
+              >#level10</a
+            >
+            <a
+              target="_blank"
+              title="♬ original sound - ESL Counter-Strike"
+              href="https://www.tiktok.com/music/original-sound-7050865199313586950"
+              >♬ original sound - ESL Counter-Strike</a
+            >
+          </section>
+        </blockquote>
+        <blockquote
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@eslcounterstrike/video/7115456499316460805"
+          data-video-id="7115456499316460805"
+          style="max-width: 605px; min-width: 325px"
+        >
+          <section>
+            <a
+              target="_blank"
+              title="@eslcounterstrike"
+              href="https://www.tiktok.com/@eslcounterstrike"
+              >@eslcounterstrike</a
+            >
+            Valek says NO to defeat. We gotta fight until the end 💪🏻 (via TTV
+            ValeK)
+            <a title="esl" target="_blank" href="https://www.tiktok.com/tag/esl"
+              >#ESL</a
+            >
+            <a
+              title="gaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/gaming"
+              >#gaming</a
+            >
+            <a
+              title="csgo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgo"
+              >#csgo</a
+            >
+            <a title="cs" target="_blank" href="https://www.tiktok.com/tag/cs"
+              >#cs</a
+            >
+            <a
+              title="counterstrike"
+              target="_blank"
+              href="https://www.tiktok.com/tag/counterstrike"
+              >#counterstrike</a
+            >
+            <a
+              title="csgohighlights"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgohighlights"
+              >#csgohighlights</a
+            >
+            <a
+              title="csgoclips"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgoclips"
+              >#csgoclips</a
+            >
+            <a
+              title="csgomoments"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgomoments"
+              >#csgomoments</a
+            >
+            <a
+              title="competitivegaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/competitivegaming"
+              >#competitivegaming</a
+            >
+            <a
+              title="twitch"
+              target="_blank"
+              href="https://www.tiktok.com/tag/twitch"
+              >#twitch</a
+            >
+            <a
+              title="faceit"
+              target="_blank"
+              href="https://www.tiktok.com/tag/faceit"
+              >#faceit</a
+            >
+            <a title="ace" target="_blank" href="https://www.tiktok.com/tag/ace"
+              >#ace</a
+            >
+            <a
+              target="_blank"
+              title="♬ original sound - ESL Counter-Strike"
+              href="https://www.tiktok.com/music/original-sound-7115456483760540422"
+              >♬ original sound - ESL Counter-Strike</a
+            >
+          </section>
+        </blockquote>
+        <blockquote
+          style="visibility: hidden"
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@eslcounterstrike/video/7115456499316460805"
+          data-video-id="7115456499316460805"
+          style="max-width: 605px; min-width: 325px"
+        >
+          <section>
+            <a
+              target="_blank"
+              title="@eslcounterstrike"
+              href="https://www.tiktok.com/@eslcounterstrike"
+              >@eslcounterstrike</a
+            >
+            Valek says NO to defeat. We gotta fight until the end 💪🏻 (via TTV
+            ValeK)
+            <a title="esl" target="_blank" href="https://www.tiktok.com/tag/esl"
+              >#ESL</a
+            >
+            <a
+              title="gaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/gaming"
+              >#gaming</a
+            >
+            <a
+              title="csgo"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgo"
+              >#csgo</a
+            >
+            <a title="cs" target="_blank" href="https://www.tiktok.com/tag/cs"
+              >#cs</a
+            >
+            <a
+              title="counterstrike"
+              target="_blank"
+              href="https://www.tiktok.com/tag/counterstrike"
+              >#counterstrike</a
+            >
+            <a
+              title="csgohighlights"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgohighlights"
+              >#csgohighlights</a
+            >
+            <a
+              title="csgoclips"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgoclips"
+              >#csgoclips</a
+            >
+            <a
+              title="csgomoments"
+              target="_blank"
+              href="https://www.tiktok.com/tag/csgomoments"
+              >#csgomoments</a
+            >
+            <a
+              title="competitivegaming"
+              target="_blank"
+              href="https://www.tiktok.com/tag/competitivegaming"
+              >#competitivegaming</a
+            >
+            <a
+              title="twitch"
+              target="_blank"
+              href="https://www.tiktok.com/tag/twitch"
+              >#twitch</a
+            >
+            <a
+              title="faceit"
+              target="_blank"
+              href="https://www.tiktok.com/tag/faceit"
+              >#faceit</a
+            >
+            <a title="ace" target="_blank" href="https://www.tiktok.com/tag/ace"
+              >#ace</a
+            >
+            <a
+              target="_blank"
+              title="♬ original sound - ESL Counter-Strike"
+              href="https://www.tiktok.com/music/original-sound-7115456483760540422"
+              >♬ original sound - ESL Counter-Strike</a
+            >
+          </section>
+        </blockquote>
+      </div>
+      <div class="tiktok-responsive">
+        <a
+          href="https://www.tiktok.com/@eslcounterstrike/video/7097674255600504070"
+          ><img src="img/thumbnail1.png"
+        /></a>
+        <a
+          href="https://www.tiktok.com/@eslcounterstrike/video/7084242255896153350"
+          ><img src="img/thumbnail2.png"
+        /></a>
+        <a
+          href="https://www.tiktok.com/@eslcounterstrike/video/7058323628101733637"
+          ><img src="img/thumbnail3.png"
+        /></a>
+        <a
+          href="https://www.tiktok.com/@eslcounterstrike/video/7050865202706910470"
+          ><img src="img/thumbnail4.png"
+        /></a>
+        <a
+          href="https://www.tiktok.com/@eslcounterstrike/video/7115456499316460805"
+          ><img src="img/thumbnail5.jpg"
+        /></a>
+      </div>
+    </div>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+    <div class="twitch-stream-live">
+      <p>LIVESTREAM - TWITCH</p>
+      <div class="twitch-stream-live-embed">
+        <div id="twitch-embed"></div>
+      </div>
+    </div>
+
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <script type="text/javascript">
+      const largura = "80%";
+      new Twitch.Embed("twitch-embed", {
+        autoplay: false,
+        width: largura,
+        height: 600,
+        channel: "valek",
+      });
+    </script>
+    <div class="footer">
+      <span class="copyright"
+        >Designed and Developed by
+        <a onclick="window.open('https://joaosantos.rf.gd' , '_blank');"
+          ><span class="joao">João Santos</span></a
+        ><br />Copyright &copy; 2022 ValeK - All rights reserved</span
+      >
+    </div>
+  </body>
+</html>
