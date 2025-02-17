@@ -244,3 +244,13 @@ body{
     font-size: 18px;
     color: #ffffff;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .sponsor {
+        width: 95%;
+    }
+
+  
+}
