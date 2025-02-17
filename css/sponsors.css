@@ -133,7 +133,7 @@ body{
 .sponsor-info {
     border: 2px solid white;
     border-radius: 5px;
-    padding: 3%;
+    padding: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,9 +146,8 @@ body{
     flex-direction: column;
     gap: 20px;
 }
-.sponsor-info p:first-child{
+.sponsor-info p{
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 /* Ensuring all sponsor-info boxes match the tallest one */
