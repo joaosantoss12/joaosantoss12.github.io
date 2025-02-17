@@ -1,449 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/loja.css">
-<link rel="stylesheet" href="css/navbar.css?v=0">
-<link rel="stylesheet" href="css/rotateScreen.css">
-<link rel="stylesheet" href="css/botaoToTop.css">
+  <link rel="stylesheet" href="css/loja.css">
+  <link rel="stylesheet" href="css/navbar.css?v=0">
+  <link rel="stylesheet" href="css/rotateScreen.css">
+  <link rel="stylesheet" href="css/botaoToTop.css">
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
-<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-<title>Store | ValeK</title>
-<link rel="icon" href="img/valek2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.cdnfonts.com/css/do-futuristic" rel="stylesheet">
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <title>Store | ValeK</title>
+  <link rel="icon" href="img/valek2.png">
 </head>
+
 <body>
 
-<script>
-        // disable right click
-        document.addEventListener('contextmenu', event => event.preventDefault());
+  <script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    document.onkeydown = function (e) {
+      // disable F12 key
+      if (e.keyCode == 123) {
+        return false;
+      }
+
+      // disable ctrl + shift + I key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        return false;
+      }
+
+      // disable ctrl + shift + J key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        return false;
+      }
+
+      // disable ctrl + U key
+      if (e.ctrlKey && e.keyCode == 85) {
+        return false;
+      }
+    }
+  </script>
+
+  <div id="rotateScreen">
+    <div class="phone"> </div>
+    <div class="message">Rotate your device!</div>
+  </div>
+  <button id="toTop" onclick="toTop();">
+    <img src="img/V1-imagem.png"><br>
+  </button>
+  <script src="javascript/toTop.js?v=0"></script>
+  <div class="first-container">
+    <nav class="nav-bar" id="nav-bar">
+      <div id="socials">
+        <img onclick="window.location='index.html';" src="img/valek.jpeg">
+        <span onclick="window.location='index.html';" class="titulo">valek</span>
+        <div class="hr"></div>
+        <a target="_blank" href="https://www.twitch.tv/valek"><i class="fa-brands fa-twitch link link-twitch"></i></a>
+        <a target="_blank" href="https://www.instagram.com/valek.37"><i
+            class="fa-brands fa-instagram link link-instagram"></i></a>
+        <a target="_blank" href="https://www.tiktok.com/@valek.37"><i
+            class="fa-brands fa-tiktok link link-steam"></i></a>
+        <a target="_blank" href="https://bit.ly/36Xt83I"><i class="fa-brands fa-youtube link link-youtube"></i>
+        </a>
+        <a target="_blank" href="https://discord.com/invite/tTKbtsX9zx"><i
+            class="fa-brands fa-discord link link-discord"></i></a>
+        <a target="_blank" href="https://www.facebook.com/TwitchValeK"><i
+            class="fa-brands fa-facebook link link-facebook"></i></a>
+        <a target="_blank" href="https://www.steamcommunity.com/id/valekofficial/"><i
+            class="fa-brands fa-steam link link-steam"></i></a>
+        <a target="_blank" href="https://www.faceit.com/pt/players/ValeK37"><span class="iconify link link-faceit"
+            data-icon="simple-icons:faceit"></span></a>
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="sobre-mim.html">about me</a>
+        </li>
+        <li>
+          <a href="sponsors.html">sponsors</a>
+        </li>
+        <li>
+          <a href="videos.html">videos</a>
+        </li>
+        <li>
+          <a href="loja.html">store</a>
+        </li>
+        <li>
+          <a href="contactos.html">contacts</a>
+        </li>
+      </ul>
+      <a class="iconMenu" onclick="responsiveMenu3()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </div>
+  <script src="javascript/responsiveMenu.js?v=0"></script>
+  <header>
+    <div class="disclaimer">
+      <div class="viewers icon">
+        <i class="fa-solid fa-user"></i>
+        <div class="disclaimer-descricao">
+          <h4>Viewers</h4>
+          <p>Receive <b>2 ValeK Coins</b> every <b>10 minutes</b>.</p>
+        </div>
+      </div>
+      <div class="subscribers icon">
+        <i class="fa-solid fa-user-plus"></i>
+        <div class="disclaimer-descricao">
+          <h4>Subscribers</h4>
+          <p>Receive <b>10 ValeK Coins</b> every <b>10 minutes</b>.</p>
+        </div>
+      </div>
+      <div class="cheering icon">
+        <i class="fa-solid fa-gem"></i>
+        <div class="disclaimer-descricao">
+          <h4>Cheering</h4>
+          <p>All cheers will receive <b>50 ValeK Coins</b> for every <b>100 bits</b>.</p>
+        </div>
+      </div>
+      <div class="subscribe icon">
+        <i class="fa-solid fa-star"></i>
+        <div class="disclaimer-descricao">
+          <h4>Subscribe</h4>
+          <p>Receive <b>250 ValeK Coins</b> upon <b>subscribing</b>.</p>
+        </div>
+      </div>
+      <div class="followers icon">
+        <i class="fa-solid fa-heart"></i>
+        <div class="disclaimer-descricao">
+          <h4>Followers</h4>
+          <p>Receive <b>5 ValeK Coins</b> upon <b>following</b>.</p>
+        </div>
+      </div>
+      <div class="donation icon">
+        <i class="fa-solid fa-dollar-sign"></i>
+        <div class="disclaimer-descricao">
+          <h4>Donate</h4>
+          <p>All donators will receive <b>50 ValeK Coins</b> for every <b>$1</b> donated.</p>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <div class="imagem-valek-loja">
+      <img class="imagem-loja" id="valek-store" src="img/loja.jpeg">
+    </div>
+  </header>
+  <div class="loja">
+
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/4e55990c-3126-4ef2-a022-c07c3859c259.png">
+      </div>
+      <div class="produto-texto">
+        <h4>PS5</h4>
+        <p>450 000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/31a4b026-7b06-42ca-954b-8821296bf6b4.png">
+      </div>
+      <div class="produto-texto">
+        <h4>250€</h4>
+        <p>235 000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/31a4b026-7b06-42ca-954b-8821296bf6b4.png">
+      </div>
+      <div class="produto-texto">
+        <h4>100€</h4>
+        <p>95 000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/649c85bd-0236-4adb-bc75-9df05f724b99.png">
+      </div>
+      <div class="produto-texto">
+        <h4>Voucher</h4>
+        <p>85 000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/31a4b026-7b06-42ca-954b-8821296bf6b4.png">
+      </div>
+      <div class="produto-texto">
+        <h4>50€</h4>
+        <p>50 000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/947b74a7-e80a-451a-8fa8-dd54868bba2e.png">
+      </div>
+      <div class="produto-texto">
+        <h4>Camisola</h4>
+        <p>25 000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/31a4b026-7b06-42ca-954b-8821296bf6b4.png">
+      </div>
+      <div class="produto-texto">
+        <h4>20€</h4>
+        <p>20 000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/31a4b026-7b06-42ca-954b-8821296bf6b4.png">
+      </div>
+      <div class="produto-texto">
+        <h4>5€</h4>
+        <p>5000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/f7f1b045-a3bb-46bd-ad30-53d3f9c93fcd.jpeg">
+      </div>
+      <div class="produto-texto">
+        <h4>Unicórnio</h4>
+        <p>2000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/b9259029-0b5a-4887-ba3e-a9e2194a49e9.png">
+      </div>
+      <div class="produto-texto">
+        <h4>Joga Comigo</h4>
+        <p>2000 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
+    <div class="produto">
+      <div class="produto-imagem">
+        <img src="https://cdn.streamelements.com/uploads/f923c486-891a-465e-817f-afe462da6b75.png">
+      </div>
+      <div class="produto-texto">
+        <h4>Sub Free</h4>
+        <p>4500 ValeK Coins</p>
+        <button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
+      </div>
+    </div>
     
-        document.onkeydown = function (e) {
-            // disable F12 key
-            if(e.keyCode == 123) {
-                return false;
-            }
-    
-            // disable ctrl + shift + I key
-            if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-                return false;
-            }
-    
-            // disable ctrl + shift + J key
-            if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-                return false;
-            }
-    
-            // disable ctrl + U key
-            if(e.ctrlKey && e.keyCode == 85) {
-                return false;
-            }
-        }
-    </script>
-
-<div id="rotateScreen">
-<div class="phone"> </div>
-<div class="message">Rotate your device!</div>
-</div>
-<button id="toTop" onclick="toTop();">
-<img src="img/V1-imagem.png"><br>
-</button>
-<script src="javascript/toTop.js?v=0"></script>
-<div class="first-container">
-<nav class="nav-bar" id="nav-bar">
-<div id="socials">
-<img onclick="window.location='index.html';" src="img/valek.jpeg">
-<span onclick="window.location='index.html';" class="titulo">valek</span>
-<div class="hr"></div>
-<a target="_blank" href="https://instagram.com/valek.37"><i class="fa-brands fa-instagram link link-instagram"></i></a>
-<a target="_blank" href="https://www.tiktok.com/@valek.37"><i class="fa-brands fa-tiktok link link-steam"></i></a>
-<a target="_blank" href="https://www.facebook.com/TwitchValeK"><i class="fa-brands fa-facebook link link-facebook"></i></a>
-<a target="_blank" href="https://twitch.tv/valek"><i class="fa-brands fa-twitch link link-twitch"></i></a>
-<a target="_blank" href="https://discord.com/invite/tTKbtsX9zx"><i class="fa-brands fa-discord link link-discord"></i></a>
-<a target="_blank" href="https://steamcommunity.com/id/valekofficial/"><i class="fa-brands fa-steam link link-steam"></i></a>
-<a target="_blank" href="https://www.faceit.com/pt/players/ValeK37"><span class="iconify link link-faceit" data-icon="simple-icons:faceit"></span></a>
-</div>
-<ul class="menu">
-<li>
-<a href="index.html">home</a>
-</li>
-<li>
-<a href="sobre-mim.html">about me</a>
-</li>
-<li>
-<a href="videos.html">videos</a>
-</li>
-<li>
-<a href="loja.html">store</a>
-</li>
-<li>
-<a href="contactos.html">contacts</a>
-</li>
-</ul>
- <a class="iconMenu" onclick="responsiveMenu3()">
-<i class="fa fa-bars"></i>
-</a>
-</nav>
-</div>
-<script src="javascript/responsiveMenu.js?v=0"></script>
-<header>
-<div class="disclaimer">
-<div class="viewers icon">
-<i class="fa-solid fa-user"></i>
-<div class="disclaimer-descricao">
-<h4>Viewers</h4>
-<p>Receive <b>10 ValeK Coins</b> every <b>10 minutes</b>.</p>
-</div>
-</div>
-<div class="subscribers icon">
-<i class="fa-solid fa-user-plus"></i>
-<div class="disclaimer-descricao">
-<h4>Subscribers</h4>
-<p>Receive <b>50 ValeK Coins</b> every <b>10 minutes</b>.</p>
-</div>
-</div>
-<div class="cheering icon">
-<i class="fa-solid fa-gem"></i>
-<div class="disclaimer-descricao">
-<h4>Cheering</h4>
-<p>All cheers will receive <b>500 ValeK Coins</b> for every <b>100 bits</b>.</p>
-</div>
-</div>
-<div class="subscribe icon">
-<i class="fa-solid fa-star"></i>
-<div class="disclaimer-descricao">
-<h4>Subscribe</h4>
-<p>Receive <b>2500 ValeK Coins</b> upon <b>subscribing</b>.</p>
-</div>
-</div>
-<div class="followers icon">
-<i class="fa-solid fa-heart"></i>
-<div class="disclaimer-descricao">
-<h4>Followers</h4>
-<p>Receive <b>250 ValeK Coins</b> upon <b>following</b>.</p>
-</div>
-</div>
-<div class="donation icon">
-<i class="fa-solid fa-dollar-sign"></i>
-<div class="disclaimer-descricao">
-<h4>Donate</h4>
-<p>All donators will receive <b>1000 ValeK Coins</b> for every <b>1€</b> donated.</p>
-</div>
-</div>
-<div class="host icon">
-<i class="fa-solid fa-users"></i>
-<div class="disclaimer-descricao">
-<h4>Host</h4>
-<p>Host the stream and receive <b>100 ValeK Coins</b>.</p>
-</div>
-</div>
-<div class="sub-offer icon">
-<i class="fa-solid fa-gift"></i>
-<div class="disclaimer-descricao">
-<h4>Subscription Offer</h4>
-<p>Every offered subscription receive<b> 1500 ValeK Coins</b>.</p>
-</div>
-</div>
-</div>
-<div class="imagem-valek-loja">
-<img class="imagem-loja" id="valek-store" src="img/loja.jpeg">
-</div>
-</header>
-<div class="loja">
-
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/a9b7d7e5-dd62-416f-addd-71b2c31a9570.jpg">
-</div>
-<div class="produto-texto">
-<h4>vip</h4>
-<p>750 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://gamecardsdirect.com/content/picture/31695/steam-10-eu.jpg">
-</div>
-<div class="produto-texto">
-<h4>steam wallet gift 10€</h4>
-<p>500 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/24d83379-f4e5-498a-a0ad-cf4e3c615289.jpg">
-</div>
-<div class="produto-texto">
-<h4>free sub</h4>
-<p>350 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/5457e047-ff7d-4724-996a-1eb4b212f446.jpg">
-</div>
-<div class="produto-texto">
-<h4>play with me</h4>
-<p>150 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-
-<div class="produto">
-<div class="produto-imagem">
-<img style="background-color:#350646" src="https://cdn.streamelements.com/uploads/aa63cdf2-de2e-4156-a608-4b4f85e3a163.png">
-</div>
-<div class="produto-texto">
-<h4>unicorn stream</h4>
-<p>350 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/bcd0305c-a9ac-4ecb-ba9f-bf749ea982b3.jpg">
-</div>
-<div class="produto-texto">
-<h4>AWP | Atheris</h4>
-<p>400 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/2e0eae2b-d75d-47de-91f5-c9886e75c5d1.jpg">
-</div>
-<div class="produto-texto">
-<h4>AK-47 | Phantom Disruptor</h4>
-<p>330 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/73593c1a-9c56-4196-96a2-fb2fea60fc36.jpg">
-</div>
-<div class="produto-texto">
-<h4>M4A1-S | Leaded Glass</h4>
-<p>330 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/cbddad61-8e82-4d2a-bb57-10af5e6dc6d9.jpg">
-</div>
-<div class="produto-texto">
-<h4>M4A4 | Royal Paladin</h4>
-<p>300 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/80299c97-48b0-40f9-b8ae-f40960ed158f.jpg">
-</div>
-<div class="produto-texto">
-<h4>Desert Eagle | Light Rail</h4>
-<p>275 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/f3d4505e-907b-4222-b51f-f20193890c8a.jpg">
-</div>
-<div class="produto-texto">
-<h4>SSG 08 | Turbo Peek</h4>
-<p>230 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/c63c0aaf-f7c9-43b2-935d-fadcc541aa8c.jpg">
-</div>
-<div class="produto-texto">
-<h4>USP-S | Cortex</h4>
-<p>150 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/c09b6684-214d-4c46-b9cf-05b99d8e59bd.jpg">
-</div>
-<div class="produto-texto">
-<h4>Glock-18 | Snack Attack</h4>
-<p>150 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/fe7f685d-d0e3-4e73-8e30-e662c3aa37b5.jpg">
-</div>
-<div class="produto-texto">
-<h4>Welcome to the Clutch</h4>
-<p>75 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/6fde5d20-5668-45c2-81c4-4d1bdec5cf58.jpg">
-</div>
-<div class="produto-texto">
-<h4>Rush 4x20 (Holo)</h4>
-<p>75 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/a0a2b747-fdac-46e3-a484-a91dccf09d96.jpg">
-</div>
-<div class="produto-texto">
-<h4>Play with me</h4>
-<p>100 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/b08ef5fd-bb38-4abf-bd0d-93eadac163af.jpg">
-</div>
-<div class="produto-texto">
-<h4>Play with me</h4>
-<p>125 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/481d7243-86be-4e26-847d-5f494615f7b3.jpeg">
-</div>
-<div class="produto-texto">
-<h4>Play with me</h4>
-<p>75 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/fe445d4b-09ed-4e9e-8b3a-e67c5bdbe9c1.jpeg">
-</div>
-<div class="produto-texto">
-<h4>Play with me</h4>
-<p>100 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/4cfea6fb-996b-464d-aad6-e87545ce1c8c.jpg">
-</div>
-<div class="produto-texto">
-<h4>1vs1 BO3</h4>
-<p>75 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/e8a98d0b-2956-4f5b-9281-50f8fe0c54c8.png">
-</div>
-<div class="produto-texto">
-<h4>Steam profile Signature</h4>
-<p>25 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/f45e7d46-c1a5-4271-8b09-83ea6f882151.jpg">
-</div>
-<div class="produto-texto">
-<h4>Add a command</h4>
-<p>15 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/20a8b753-2d99-48a0-8421-06d194d8703a.jpg">
-</div>
-<div class="produto-texto">
-<h4>Video React</h4>
-<p>20 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/4954a0dd-6f34-46ec-8fb5-42cfaff873f4.jpg">
-</div>
-<div class="produto-texto">
-<h4>Timeout</h4>
-<p>20 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/13501631-a388-4265-b023-57406011ee2a.jpg">
-</div>
-<div class="produto-texto">
-<h4>Raid leader</h4>
-<p>50 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/13501631-a388-4265-b023-57406011ee2a.jpg">
-</div>
-<div class="produto-texto">
-<h4>Raid leader</h4>
-<p>50 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/13501631-a388-4265-b023-57406011ee2a.jpg">
-</div>
-<div class="produto-texto">
-<h4>Raid leader</h4>
-<p>50 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-<div class="produto">
-<div class="produto-imagem">
-<img src="https://cdn.streamelements.com/uploads/13501631-a388-4265-b023-57406011ee2a.jpg">
- </div>
-<div class="produto-texto">
-<h4>Raid leader</h4>
-<p>50 000 ValeK Coins</p>
-<button onclick="window.open('https://streamelements.com/valek/store','_blank')">Check it out !</button>
-</div>
-</div>
-</div>
-<div class="footer">
-<span class="copyright">Designed and Developed by <a onclick="window.open('https://joaosantos.rf.gd' , '_blank');"><span class="joao">João Santos</span></a><br>Copyright &copy; 2022 ValeK - All rights reserved</span>
-</div>
+  </div>
+  <div class="footer">
+    <span class="copyright">Designed and Developed by <a
+        onclick="window.open('https://github.com/joaosantoss12' , '_blank');"><span class="joao">João
+          Santos</span></a><br>Copyright &copy; 2022 ValeK - All rights reserved</span>
+  </div>
 </body>
