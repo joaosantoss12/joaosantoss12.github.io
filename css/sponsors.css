@@ -205,7 +205,7 @@ body{
 /* Modal content */
 .modal-content {
     background-color: #020232;;
-    margin: 10% auto;
+    margin: 2% auto;
     padding: 20px;
     border: 1px solid #2f00ff;
     width: 80%; /* Can be adjusted */
@@ -245,10 +245,11 @@ body{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1090px) {
 
     .sponsor {
-        width: 95%;
+     
+        flex-wrap: nowrap;
     }
 
   
