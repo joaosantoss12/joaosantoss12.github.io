@@ -72,6 +72,16 @@
     color:#F8488E;
     font-size:17px;
 }
+#socials .link-tiktok{
+    margin-left: 12px;
+    color:#000000;
+    font-size:17px;
+}
+#socials .link-telegram{
+    margin-left: 15px;
+    color:#29A9EB;
+    font-size:19px;
+}
 #socials .link-youtube{
     margin-left: 13px;
     color:#d90000;
