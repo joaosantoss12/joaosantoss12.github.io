@@ -25,7 +25,7 @@ function openInfoPanel(button) {
             sponsorText = "🎉 Join the Action at Leon Casino! 🎰<br><br>Experience top-tier casino games, amazing bonuses, and non-stop excitement at Leon Casino! Use my code [VALEK] to unlock exclusive rewards and start playing today!<br><br>💎 Huge Welcome Bonus & Free Spins<br>🎮 Wide Variety of Games & Slots<br>⚡ Fast Withdrawals & Secure Transactions<br>🎁 Daily Promotions & VIP Perks<br><br>Don’t miss out—sign up now and hit the jackpot at Leon Casino! 💰🚀";
             break;
         case 'btn7':
-            sponsorText = "🎰 Discover the Thrills at Casinoly! 💥<br><br>Step into a world of exciting games, massive jackpots, and exclusive rewards at Casinoly! Use my code [VALEK] to claim a special bonus and kickstart your adventure today!<br><br>💎 Big Welcome Bonuses & Free Spins<br>🎮 Top Casino Games & Slots<br>⚡ Fast Withdrawals & Secure Payments<br>🎁 VIP Rewards & Daily Promotions<br><br>Don't wait—sign up now and start winning big at Casinoly! 💰🔥";
+            sponsorText = "🎰 Discover the Thrills at SpellWin! 💥<br><br>Step into a world of exciting games, massive jackpots, and exclusive rewards at SpellWin! Use my link to claim a special bonus and kickstart your adventure today!<br><br>💎 Big Welcome Bonuses & Free Spins<br>🎮 Top Casino Games & Slots<br>⚡ Fast Withdrawals & Secure Payments<br>🎁 VIP Rewards & Daily Promotions<br><br>Don't wait—sign up now and start winning big at SpellWin! 💰🔥";
             break;
     }
 
