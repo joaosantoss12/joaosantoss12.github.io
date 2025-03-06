@@ -27,6 +27,10 @@ function openInfoPanel(button) {
         case 'btn7':
             sponsorText = "🎰 Unleash the Magic at SpellWin Casino! ✨<br><br>Step into a world of enchanting wins and thrilling casino games at SpellWin! Get ready for huge jackpots, exciting slots, and exclusive bonuses. Use my link to claim a <b>200% welcome bonus + free spins</b> and start your adventure today!<br><br>🔥 <b>Massive Welcome Bonuses & Free Spins</b><br>🎮 <b>Top-Tier Slots & Live Casino Games</b><br>⚡ <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>VIP Perks & Daily Rewards</b><br><br>Don’t miss out—<b>sign up now</b> and let the magic of SpellWin bring you huge wins! 💰🎩✨";
             break;
+
+        case 'btn10':
+        sponsorText = "⚽️ Score Big at Rabona Casino! 🎲<br><br>Experience an unparalleled blend of sports betting and casino action at Rabona Casino! Use my link for exclusive rewards and start winning today!<br><br>🔥 Huge Sportsbook & Casino Games<br>🎁 Massive Bonuses & Free Spins<br>⚡ Fast Withdrawals & Crypto-Friendly<br>💎 VIP Perks & Daily Rewards<br><br>Sign up now and get in on the action—whether it's at the slots or on the field! 💰🚀";
+        break;
     }
 
     // Set the image and text in the modal
