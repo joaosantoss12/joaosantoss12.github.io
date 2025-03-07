@@ -31,6 +31,10 @@ function openInfoPanel(button) {
         case 'btn10':
         sponsorText = "⚽️ Score Big at Rabona Casino! 🎲<br><br>Experience an unparalleled blend of sports betting and casino action at Rabona Casino! Use my link for exclusive rewards and start winning today!<br><br>🔥 Huge Sportsbook & Casino Games<br>🎁 Massive Bonuses & Free Spins<br>⚡ Fast Withdrawals & Crypto-Friendly<br>💎 VIP Perks & Daily Rewards<br><br>Sign up now and get in on the action—whether it's at the slots or on the field! 💰🚀";
         break;
+
+        case 'btn20':
+        sponsorText = "🎯 Win Big on CSFAIL! 🎲<br><br>Take your chances and win awesome CS:GO skins at CSFAIL! Use my code [VALEK] for an exclusive 10% bonus on your first deposit!<br><br>🔥 Instant Case Openings<br>💰 Fair & Secure System<br>🎁 Daily Bonuses & Promotions<br>⚡ Fast Withdrawals<br><br>Sign up now and start winning big! 🚀💥";
+        break;
     }
 
     // Set the image and text in the modal
