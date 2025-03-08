@@ -56,18 +56,20 @@ body{
         }
   }
 
-
-.container {
+  .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
     padding: 5% 0;
+    gap: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-    gap:25px;
-
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .sponsor {
@@ -76,29 +78,25 @@ body{
     align-items: center;
     text-align: center;
     color: white;
-    justify-content: center;
-    width: 65%;
-    padding: 25px;
+    justify-content: space-between;
+    padding: 20px;
     background-color: #020232;
     border-radius: 10px;
-    gap: 10px;
-
-    border: 2px solid red; /* Start with red */
+    margin-bottom: 3%;
+    border: 2px solid red;
     animation: rainbow-border 3s linear infinite;
 }
 
-/* Animation for looping rainbow effect */
 @keyframes rainbow-border {
-    0%   { border-color: red; }
-    16%  { border-color: orange; }
-    33%  { border-color: yellow; }
-    50%  { border-color: green; }
-    66%  { border-color: blue; }
-    83%  { border-color: violet; }
-    100% { border-color: red; } /* Ends with red to create a smooth loop */
+    0% { border-color: red; }
+    16% { border-color: orange; }
+    33% { border-color: yellow; }
+    50% { border-color: green; }
+    66% { border-color: blue; }
+    83% { border-color: violet; }
+    100% { border-color: red; }
 }
 
-/* Different starting delays */
 .sponsor:nth-child(1) { animation-delay: 0s; }
 .sponsor:nth-child(2) { animation-delay: 0.5s; }
 .sponsor:nth-child(3) { animation-delay: 1s; }
@@ -107,17 +105,10 @@ body{
 .sponsor:nth-child(6) { animation-delay: 0.5s; }
 .sponsor:nth-child(7) { animation-delay: 0s; }
 
-
-
-/* IMAGE STYLING */
 .sponsor-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 200px; /* Limits image size */
-    height: auto;
-
-    margin-right: 3%;
+    max-width: 150px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .sponsor-img img {
@@ -125,67 +116,49 @@ body{
     height: auto;
 }
 
-.sponsor-img:hover {
-    cursor: pointer;
-}
-
-/* SPONSOR INFO BOXES */
 .sponsor-info {
     border: 2px solid white;
     border-radius: 5px;
-    padding: 1%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1; /* Makes all items equal in width */
-    min-height: 150px; /* Ensures uniform height */
-    text-align: center;
-    max-width: 180px; /* Ensures uniform width */
-
+    padding: 5px;
+    flex: 1;
+    min-height: 100px;
+    max-width: 130px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-.sponsor-info p{
-    text-transform: uppercase;
-}
-
-/* Ensuring all sponsor-info boxes match the tallest one */
-.sponsor-info-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 10px;
-    width: 100%;
 }
 
-/* BUTTONS */
+.sponsor-info p {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+}
+
 .sponsor-buttons {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Centers buttons */
-    gap: 10px; /* Space between buttons */
-    margin-left: 3%;
+    gap: 5px;
 }
 
 .sponsor-button {
     background-color: white;
     color: #020232;
     border: none;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     font-size: 12px;
     font-weight: bold;
     transition: 0.3s;
-    width: 75%;
-    text-align: center;
+    width: 100%;
+    max-width: 100px;
 }
 
 .sponsor-button:hover {
     background-color: #f0f0f0;
     cursor: pointer;
 }
+
 
 
 
