@@ -35,6 +35,10 @@ function openInfoPanel(button) {
         case 'btn20':
         sponsorText = "🎯 Win Big on CSFAIL! 🎲<br><br>Take your chances and win awesome CS:GO skins at CSFAIL! Use my code [VALEK] for an exclusive 10% bonus on your first deposit!<br><br>🔥 Instant Case Openings<br>💰 Fair & Secure System<br>🎁 Daily Bonuses & Promotions<br>⚡ Fast Withdrawals<br><br>Sign up now and start winning big! 🚀💥";
         break;
+
+        case 'btn30':
+            sponsorText = "🎰 Bet Big at BetTilt Casino! 💥<br><br>Enjoy a wide range of casino games, from slots to live dealers, with amazing bonuses! Use my code [VALEK] for exclusive rewards and boost your chances to win!<br><br>🔥 Huge Welcome Bonuses & Free Spins<br>🎮 Top-Tier Casino Games & Sports Betting<br>⚡ Fast & Secure Withdrawals<br>🎁 Daily Promotions & VIP Perks<br><br>Sign up now and start winning at BetTilt Casino! 💰";
+        break;
     }
 
     // Set the image and text in the modal

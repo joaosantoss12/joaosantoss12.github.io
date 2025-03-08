@@ -58,7 +58,7 @@ body{
 
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     width: 100%;
     padding: 5% 0;
@@ -74,7 +74,7 @@ body{
 
 .sponsor {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     color: white;
@@ -85,6 +85,11 @@ body{
     margin-bottom: 3%;
     border: 2px solid red;
     animation: rainbow-border 3s linear infinite;
+
+    min-height: 325px;
+}
+.row{
+    display: flex;
 }
 
 @keyframes rainbow-border {
@@ -106,8 +111,10 @@ body{
 .sponsor:nth-child(7) { animation-delay: 0s; }
 
 .sponsor-img {
-    max-width: 150px;
-    margin-right: 10px;
+
+    max-width: 250px;
+    min-width: 200px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 
@@ -121,12 +128,13 @@ body{
     border-radius: 5px;
     padding: 5px;
     flex: 1;
-    min-height: 100px;
-    max-width: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content: space-evenly;
+    min-width: 125px;
+    min-height: 100px;
+
+    margin: 0% 2%;
 }
 
 .sponsor-info p {
@@ -137,8 +145,8 @@ body{
 
 .sponsor-buttons {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    flex-direction: row;
+    margin: 5% 0%;
 }
 
 .sponsor-button {
@@ -152,6 +160,9 @@ body{
     transition: 0.3s;
     width: 100%;
     max-width: 100px;
+    min-width: 75px;
+
+    margin: 0% 2%;
 }
 
 .sponsor-button:hover {
