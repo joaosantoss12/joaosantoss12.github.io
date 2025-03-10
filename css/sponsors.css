@@ -61,7 +61,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    padding: 5% 0;
+    padding:2% 0;
     gap: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -69,29 +69,27 @@ body{
 .column {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
 }
 
 .sponsor {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     color: white;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
     background-color: #020232;
     border-radius: 10px;
     margin-bottom: 3%;
     border: 2px solid red;
     animation: rainbow-border 3s linear infinite;
+    padding: 5%;
 
-    min-height: 325px;
+    min-height:19vh;
+    max-height: 20vh;
 }
-.row{
-    display: flex;
-}
-
 @keyframes rainbow-border {
     0% { border-color: red; }
     16% { border-color: orange; }
@@ -111,11 +109,8 @@ body{
 .sponsor:nth-child(7) { animation-delay: 0s; }
 
 .sponsor-img {
-
-    max-width: 250px;
-    min-width: 200px;
-    margin-bottom: 10px;
-    cursor: pointer;
+  margin-right:3%;
+  cursor: pointer;
 }
 
 .sponsor-img img {
@@ -127,42 +122,42 @@ body{
     border: 2px solid white;
     border-radius: 5px;
     padding: 5px;
-    flex: 1;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-width: 125px;
-    min-height: 100px;
+    min-width: 6vw;
+    min-height: 10vh;
 
-    margin: 0% 2%;
+    margin-right:2%;
 }
 
 .sponsor-info p {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.5vh;
     margin: 0;
 }
 
-.sponsor-buttons {
+
+.sponsor-buttons{
     display: flex;
-    flex-direction: row;
-    margin: 5% 0%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
 }
 
 .sponsor-button {
     background-color: white;
-    color: #020232;
-    border: none;
+    color: #000000;
+    border: 1px solid black;
     padding: 5px;
-    border-radius: 5px;
-    font-size: 12px;
+    border-radius: 2px;
+    font-size: 1.2vh;
     font-weight: bold;
-    transition: 0.3s;
     width: 100%;
-    max-width: 100px;
-    min-width: 75px;
 
-    margin: 0% 2%;
+  
 }
 
 .sponsor-button:hover {
