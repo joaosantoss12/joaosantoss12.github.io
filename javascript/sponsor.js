@@ -29,8 +29,8 @@ function openInfoPanel(button) {
             break;
 
         case 'btn10':
-        sponsorText = "⚽️ Score Big at Rabona Casino! 🎲<br><br>Experience an unparalleled blend of sports betting and casino action at Rabona Casino! Use my link for exclusive rewards and start winning today!<br><br>🔥 Huge Sportsbook & Casino Games<br>🎁 Massive Bonuses & Free Spins<br>⚡ Fast Withdrawals & Crypto-Friendly<br>💎 VIP Perks & Daily Rewards<br><br>Sign up now and get in on the action—whether it's at the slots or on the field! 💰🚀";
-        break;
+            sponsorText = "🔥 Spin & Win at TikiTaka Casino! 🎰<br><br>Step into the ultimate casino adventure with TikiTaka! Enjoy high-energy slots, thrilling table games, and generous bonuses. Use my code [VALEK] for exclusive rewards and start winning big today!<br><br>🎁 Huge Welcome Bonus & Free Spins<br>🎮 Exciting Slots & Live Casino Games<br>⚡ Fast Withdrawals & Crypto-Friendly<br>💎 VIP Perks & Daily Rewards<br><br>Sign up now and experience the thrill of TikiTaka Casino! 💰🔥";
+            break;
 
         case 'btn20':
         sponsorText = "🎯 Win Big on CSFAIL! 🎲<br><br>Take your chances and win awesome CS:GO skins at CSFAIL! Use my code [VALEK] for an exclusive 10% bonus on your first deposit!<br><br>🔥 Instant Case Openings<br>💰 Fair & Secure System<br>🎁 Daily Bonuses & Promotions<br>⚡ Fast Withdrawals<br><br>Sign up now and start winning big! 🚀💥";

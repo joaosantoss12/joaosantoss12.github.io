@@ -114,8 +114,12 @@ body{
 }
 
 .sponsor-img img {
-    width: 100%;
-    height: auto;
+  width: 80%;
+  height: auto; /* Ensures all images have the same height */
+  object-fit: contain; /* Ensures images don't get stretched */
+}
+.column:nth-child(1) .sponsor:nth-child(2) .sponsor-img img{
+  width:70%;
 }
 
 .sponsor-info {
