@@ -11,5 +11,5 @@ function delay(time) {
 }
 
 function loader() {  
-    delay(4300).then(() => bodyOverlayIndex.style.display = "none");
+    delay(2300).then(() => bodyOverlayIndex.style.display = "none");
 }
