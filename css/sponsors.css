@@ -114,7 +114,7 @@ body{
 }
 
 .sponsor-img img {
-  width: 80%;
+  width: 85%;
   height: auto; /* Ensures all images have the same height */
   object-fit: contain; /* Ensures images don't get stretched */
 }
