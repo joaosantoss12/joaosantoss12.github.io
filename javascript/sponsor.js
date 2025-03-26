@@ -44,6 +44,14 @@ function openInfoPanel(button) {
       sponsorText =
         "👑 Rule the Game at Kyngs Casino! 🎰🔥<br><br>Step into the kingdom of fortune and claim incredible offers! Get a <b>200% welcome bonus on your first deposit + 100 free spins</b> to boost your winnings!<br><br>💰 <b>Epic welcome bonuses</b><br>🎮 <b>Slots, Roulette, Blackjack, and more</b><br>⚡ <b>Fast withdrawals & 24/7 support</b><br>🎁 <b>Daily promotions & exclusive VIP club</b><br><br>Don’t miss out—<b>Play now and become the true king of betting!</b> 👑💎";
       break;
+
+      case "btn12":
+        sponsorText =
+        
+          "🎰 Spin & Win Big at Vinci Spin Casino! 🔥💰<br><br>Experience top-tier casino action with huge jackpots, thrilling slots, and unbeatable bonuses! Get a <b>250% welcome bonus + 100 free spins</b> on your first deposit!<br><br>🚀 <b>Instant Withdrawals & Crypto-Friendly</b><br>🎁 <b>Massive Bonuses & Daily Rewards</b><br>🎮 <b>Exciting Slots, Live Casino & More</b><br>💎 <b>VIP Perks for Exclusive Players</b><br><br>Don't miss out—<b>Join Vinci Spin now and start winning today!</b> 🎲💸";
+        break;
+
+
     case "btn20":
       sponsorText = "🎯 Win Big on CSFAIL! 🎲<br><br>Take your chances and win awesome CS:GO skins at CSFAIL! Use my code [VALEK] for an exclusive 10% bonus on your first deposit!<br><br>🔥 Instant Case Openings<br>💰 Fair & Secure System<br>🎁 Daily Bonuses & Promotions<br>⚡ Fast Withdrawals<br><br>Sign up now and start winning big! 🚀💥";
       break;
