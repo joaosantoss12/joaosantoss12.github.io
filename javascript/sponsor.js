@@ -51,6 +51,11 @@ function openInfoPanel(button) {
           "🎰 Spin & Win Big at Vinci Spin Casino! 🔥💰<br><br>Experience top-tier casino action with huge jackpots, thrilling slots, and unbeatable bonuses! Get a <b>250% welcome bonus + 100 free spins</b> on your first deposit!<br><br>🚀 <b>Instant Withdrawals & Crypto-Friendly</b><br>🎁 <b>Massive Bonuses & Daily Rewards</b><br>🎮 <b>Exciting Slots, Live Casino & More</b><br>💎 <b>VIP Perks for Exclusive Players</b><br><br>Don't miss out—<b>Join Vinci Spin now and start winning today!</b> 🎲💸";
         break;
 
+        case "btn13":
+          sponsorText =
+            "🎰 Take Your Luck to the Next Level at RTBet Casino! 🔥💰<br><br>Experience an exciting world of slots, table games, and live dealers with massive bonuses! Get a <b>100% welcome bonus + 200 free spins</b> on your first deposit!<br><br>🚀 <b>Instant Withdrawals & Crypto-Friendly</b><br>🎁 <b>Huge Bonuses & Daily Promotions</b><br>🎮 <b>Exciting Slots, Live Casino & More</b><br>💎 <b>VIP Rewards & Exclusive Perks</b><br><br>Don't miss out—<b>Join RTBet now and start winning today!</b> 🎲💸";
+          break;
+
 
     case "btn20":
       sponsorText = "🎯 Win Big on CSFAIL! 🎲<br><br>Take your chances and win awesome CS:GO skins at CSFAIL! Use my code [VALEK] for an exclusive 10% bonus on your first deposit!<br><br>🔥 Instant Case Openings<br>💰 Fair & Secure System<br>🎁 Daily Bonuses & Promotions<br>⚡ Fast Withdrawals<br><br>Sign up now and start winning big! 🚀💥";
