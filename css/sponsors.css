@@ -121,6 +121,9 @@ body{
 .column:nth-child(1) .sponsor:nth-child(2) .sponsor-img img{
   width:70%;
 }
+.column:nth-child(1) .sponsor:nth-child(3) .sponsor-img img{
+  width:90%;
+}
 
 .sponsor-info {
     border: 2px solid white;
