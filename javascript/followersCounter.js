@@ -35,19 +35,26 @@ function followersInstagram() {
   const element2 = document.getElementById("instagram-followers-count2");
 
   const xhr = new XMLHttpRequest();
-  xhr.withCredentials = true;
+xhr.withCredentials = true;
 
-  xhr.open("GET", "https://instagram-looter2.p.rapidapi.com/profile?username=valek.37");
-xhr.setRequestHeader("X-RapidAPI-Key", "3d759affa1msh0b5e830f1021164p144c26jsn7293ceb5cfc7");
-xhr.setRequestHeader("X-RapidAPI-Host", "instagram-looter2.p.rapidapi.com");
+xhr.addEventListener('readystatechange', function () {
+	if (this.readyState === this.DONE) {
+		console.log(this.responseText);
+	}
+});
+
+xhr.open('GET', 'https://instagram-looter2.p.rapidapi.com/profile2?username=valek.37');
+xhr.setRequestHeader('x-rapidapi-key', '3d759affa1msh0b5e830f1021164p144c26jsn7293ceb5cfc7');
+xhr.setRequestHeader('x-rapidapi-host', 'instagram-looter2.p.rapidapi.com');
+
 
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
       const obj = JSON.parse(xhr.responseText);
-      console.log(obj.edge_followed_by.count);
+      console.log(obj.follower_count);
 
-        element.innerHTML = obj.edge_followed_by.count.toLocaleString("en-IN") + " FOLLOWERS";
-        element2.innerHTML = obj.edge_followed_by.count.toLocaleString("en-IN") +  " FOLLOWERS";
+        element.innerHTML = obj.follower_count.toLocaleString("en-IN") + " FOLLOWERS";
+        element2.innerHTML = obj.follower_count.toLocaleString("en-IN") +  " FOLLOWERS";
     }
   };
 
