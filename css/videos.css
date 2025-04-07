@@ -77,3 +77,20 @@ body{
   border-radius: 25px;
   margin: 0% 15px;
 }
+
+@media screen and (max-width: 800px) {
+  .youtube-highlights .youtube-iframes{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    row-gap:25px;
+  }
+
+  .youtube-highlights .youtube-iframes iframe{
+    border:2px solid #4e4c51;
+    border-radius: 25px;
+    margin: 0% 15px;
+    width:80%;
+  }
+  
+}
