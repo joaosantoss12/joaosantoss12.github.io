@@ -66,6 +66,11 @@ function openInfoPanel(button) {
           "🍭 Win Sweet Rewards at CandySpinz Casino! 🍬🎰<br><br>Step into a colorful world of fun and fortune at CandySpinz! Enjoy exciting slots, juicy bonuses, and a sugar rush of rewards. Use my code link for an exclusive <b>up to 1500€ welcome bonus + 300 free spins</b> on your first deposit!<br><br>🍓 <b>Delicious Welcome Bonuses</b><br>🎮 <b>Fun & Colorful Slots + Live Casino</b><br>⚡ <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Rewards & VIP Treats</b><br><br>Don’t miss out—<b>join CandySpinz now and let the sweet wins begin!</b> 💰🍬🎉";
         break;
 
+        case "btn16":
+        sponsorText =
+          "⚽💸 Get in the Game with Rabona Casino & Sportsbook! 🎰🔥<br><br>Enjoy the best of both worlds—sports betting and online casino thrills in one place! Claim a <b>welcome bonus of up to 100% bonus deposit</b> on your first deposit!<br><br>🏆 <b>Live & Pre-Match Sports Betting</b><br>🎮 <b>Slots, Roulette, Blackjack & Live Casino</b><br>🚀 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & Exclusive VIP Club</b><br><br>Don't miss out—<b>Join Rabona now and play like a champion!</b> ⚽🎲💰";
+        break;
+
     case "btn20":
       sponsorText = "🎯 Win Big on CSFAIL! 🎲<br><br>Take your chances and win awesome CS:GO skins at CSFAIL! Use my code [VALEK] for an exclusive 10% bonus on your first deposit!<br><br>🔥 Instant Case Openings<br>💰 Fair & Secure System<br>🎁 Daily Bonuses & Promotions<br>⚡ Fast Withdrawals<br><br>Sign up now and start winning big! 🚀💥";
       break;
