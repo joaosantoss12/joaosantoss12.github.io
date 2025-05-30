@@ -77,6 +77,11 @@ function openInfoPanel(button) {
     case "btn30":
       sponsorText = "🎰 Bet Big at BetTilt Casino! 💥<br><br>Enjoy a wide range of casino games, from slots to live dealers, with amazing bonuses! Use my code [VALEK] for exclusive rewards and boost your chances to win!<br><br>🔥 Huge Welcome Bonuses & Free Spins<br>🎮 Top-Tier Casino Games & Sports Betting<br>⚡ Fast & Secure Withdrawals<br>🎁 Daily Promotions & VIP Perks<br><br>Sign up now and start winning at BetTilt Casino! 💰";
       break;
+
+    case "btn100":
+      sponsorText =
+        "🌟 Step into Luxury with VIP Casino! 🎰💎<br><br>Enjoy a premium gambling experience with elite rewards, high-stakes games, and exclusive perks! Get a <b>100% welcome bonus + 77 free spins</b> when you join today!<br><br>🔥 <b>High-Limit Slots & VIP Tables</b><br>💰 <b>Massive Bonuses & Tailored Promotions</b><br>⚡ <b>Instant Withdrawals & Crypto Support</b><br>🎁 <b>Personal VIP Manager & Loyalty Rewards</b><br><br>Don't miss your chance—<b>Join VIP Casino now and play like royalty!</b> 👑🎲";
+      break;
   }
 
   // Set the image and text in the modal
