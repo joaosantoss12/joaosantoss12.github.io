@@ -82,6 +82,11 @@ function openInfoPanel(button) {
       sponsorText =
         "🌟 Step into Luxury with VIP Casino! 🎰💎<br><br>Enjoy a premium gambling experience with elite rewards, high-stakes games, and exclusive perks! Get a <b>100% welcome bonus + 77 free spins</b> when you join today!<br><br>🔥 <b>High-Limit Slots & VIP Tables</b><br>💰 <b>Massive Bonuses & Tailored Promotions</b><br>⚡ <b>Instant Withdrawals & Crypto Support</b><br>🎁 <b>Personal VIP Manager & Loyalty Rewards</b><br><br>Don't miss your chance—<b>Join VIP Casino now and play like royalty!</b> 👑🎲";
       break;
+    
+     case "btn111":
+      sponsorText =
+        "🏛️ Conquer Fortune at Roman Casino! 🎰🪙<br><br>Step into the empire of excitement where glory, gold, and great games await! New players get a <b>100% welcome bonus + 100 free spins</b> to start their victorious journey!<br><br>⚔️ <b>Epic Slots & Live Casino Battles</b><br>🏆 <b>Daily Rewards & Legendary Jackpots</b><br>💸 <b>Fast Payouts & Crypto-Friendly</b><br>🎖️ <b>Loyalty Program Inspired by Roman Glory</b><br><br>Ready to rule the reels?<br><b>Join Roman Casino today and play like a true Caesar!</b> 👑🎲";
+      break;
   }
 
   // Set the image and text in the modal
