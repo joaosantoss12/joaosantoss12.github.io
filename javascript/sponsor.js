@@ -87,6 +87,12 @@ function openInfoPanel(button) {
       sponsorText =
         "🏛️ Conquer Fortune at Roman Casino! 🎰🪙<br><br>Step into the empire of excitement where glory, gold, and great games await! New players get a <b>100% welcome bonus + 100 free spins</b> to start their victorious journey!<br><br>⚔️ <b>Epic Slots & Live Casino Battles</b><br>🏆 <b>Daily Rewards & Legendary Jackpots</b><br>💸 <b>Fast Payouts & Crypto-Friendly</b><br>🎖️ <b>Loyalty Program Inspired by Roman Glory</b><br><br>Ready to rule the reels?<br><b>Join Roman Casino today and play like a true Caesar!</b> 👑🎲";
       break;
+
+    case "btn112":
+      sponsorText =
+        "🎯 Domine a Sorte no RokuBet Casino! 🎰🔥<br><br>Prepare-se para uma experiência de apostas lendária onde diversão e prêmios colossais te esperam! Novos jogadores recebem um <b>100% bônus de boas-vindas + 100 rodadas grátis</b> para começar com tudo!<br><br>💎 <b>Slots Explosivos & Cassino Ao Vivo</b><br>🏆 <b>Torneios Diários & Jackpots Gigantes</b><br>💸 <b>Saques Rápidos & Aceita Criptomoedas</b><br>🎁 <b>Programa VIP com Recompensas Exclusivas</b><br><br>Está pronto para apostar alto?<br><b>Entre no RokuBet agora e jogue como um verdadeiro campeão!</b> 🏅🎲";
+      break;
+
   }
 
   // Set the image and text in the modal
