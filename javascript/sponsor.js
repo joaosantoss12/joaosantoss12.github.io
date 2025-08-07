@@ -93,6 +93,11 @@ function openInfoPanel(button) {
         "🎯 Domine a Sorte no RokuBet Casino! 🎰🔥<br><br>Prepare-se para uma experiência de apostas lendária onde diversão e prêmios colossais te esperam! Novos jogadores recebem um <b>100% bônus de boas-vindas + 100 rodadas grátis</b> para começar com tudo!<br><br>💎 <b>Slots Explosivos & Cassino Ao Vivo</b><br>🏆 <b>Torneios Diários & Jackpots Gigantes</b><br>💸 <b>Saques Rápidos & Aceita Criptomoedas</b><br>🎁 <b>Programa VIP com Recompensas Exclusivas</b><br><br>Está pronto para apostar alto?<br><b>Entre no RokuBet agora e jogue como um verdadeiro campeão!</b> 🏅🎲";
       break;
 
+    case "btn115":
+      sponsorText =
+    "🎯 Rule the Game at Vemabet Casino! 🎰🔥<br><br>Get ready for an unforgettable betting adventure packed with excitement, massive wins, and non-stop action! New players enjoy a <b>100% Welcome Bonus + 100 Free Spins</b> to kickstart the thrill!<br><br>💎 <b>Hot Slots & Live Casino Games</b><br>🏆 <b>Daily Tournaments & Huge Jackpots</b><br>💸 <b>Fast Payouts & Crypto Accepted</b><br>🎁 <b>Exclusive VIP Rewards Program</b><br><br>Are you ready to raise the stakes?<br><b>Join Vemabet now and play like a true champion!</b> 🏅🎲";
+  break;
+
   }
 
   // Set the image and text in the modal

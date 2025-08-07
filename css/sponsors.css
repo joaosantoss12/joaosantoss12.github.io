@@ -79,7 +79,6 @@ body{
     text-align: center;
     color: white;
     justify-content: space-evenly;
-    padding: 20px;
     background-color: #020232;
     border-radius: 10px;
     margin-bottom: 3%;
@@ -119,8 +118,12 @@ body{
   object-fit: contain; /* Ensures images don't get stretched */
 }
 .column:nth-child(1) .sponsor:nth-child(1) .sponsor-img img{
-  width:75%;
+  width:48%;
 }
+.column:nth-child(1) .sponsor:nth-child(1) .sponsor-img{
+  margin-right:2%;
+}
+
 .column:nth-child(1) .sponsor:nth-child(2) .sponsor-img img{
   width:100%;
 }
