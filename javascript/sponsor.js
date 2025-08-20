@@ -98,6 +98,11 @@ function openInfoPanel(button) {
     "🎯 Rule the Game at Vemabet Casino! 🎰🔥<br><br>Get ready for an unforgettable betting adventure packed with excitement, massive wins, and non-stop action! New players enjoy a <b>100% Welcome Bonus + 100 Free Spins</b> to kickstart the thrill!<br><br>💎 <b>Hot Slots & Live Casino Games</b><br>🏆 <b>Daily Tournaments & Huge Jackpots</b><br>💸 <b>Fast Payouts & Crypto Accepted</b><br>🎁 <b>Exclusive VIP Rewards Program</b><br><br>Are you ready to raise the stakes?<br><b>Join Vemabet now and play like a true champion!</b> 🏅🎲";
   break;
 
+  case "btn1115":
+      sponsorText =
+    "🎰 Discover Mega Wins at MegaPari Casino! 🌟💰<br><br>Join MegaPari and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus + 100 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at MegaPari now and start winning big!</b> 🎲🏆";
+  break;
+
   }
 
   // Set the image and text in the modal
