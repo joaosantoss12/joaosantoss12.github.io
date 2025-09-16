@@ -134,7 +134,7 @@ body{
 
 /* 20bet - now position 4 */
 .column:nth-child(1) .sponsor:nth-child(4) .sponsor-img img{
-  width: 80px;
+  width: 80%;
 }
 
 /* roman - now position 5 */
