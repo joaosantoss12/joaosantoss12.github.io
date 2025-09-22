@@ -119,17 +119,17 @@ body{
 }
 /* vemabet - now position 1 */
 .column:nth-child(1) .sponsor:nth-child(1) .sponsor-img img{
-  width: 75%;
+  width: 65%;
 }
 
 /* slott - now position 2 */
 .column:nth-child(1) .sponsor:nth-child(2) .sponsor-img img{
-  width:65%;
+  width:55%;
 }
 
 /* bcgame - now position 3 */
 .column:nth-child(1) .sponsor:nth-child(3) .sponsor-img img{
-  width:90%;
+  width:80%;
 }
 
 /* 20bet - now position 4 */
@@ -143,6 +143,17 @@ body{
 }
 .column:nth-child(1) .sponsor:nth-child(5) .sponsor-img{
   margin-right:2%;
+}
+
+
+.column:nth-child(2) .sponsor:nth-child(1) .sponsor-img img{
+  width: 80%;
+}
+.column:nth-child(2) .sponsor:nth-child(2) .sponsor-img img{
+  width: 90%;
+}
+.column:nth-child(2) .sponsor:nth-child(3) .sponsor-img img{
+  width: 80%;
 }
 
 .sponsor-info {
