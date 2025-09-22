@@ -108,6 +108,11 @@ function openInfoPanel(button) {
     "🎰 Unlock Non-Stop Action at 1xBit Casino! 🌟💰<br><br>Step into the world of 1xBit and enjoy thrilling slots, live casino games, and sports betting with a crypto edge! New players get a <b>Welcome Bonus up to 7 BTC</b> across their first deposits!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Instant Crypto Deposits & Withdrawals</b><br>🎁 <b>Exclusive Promotions & Loyalty Rewards</b><br>⚡ <b>24/7 Support & Anonymous Registration</b><br><br>Don’t wait—<b>sign up at 1xBit today and play with Bitcoin!</b> 🎲🏆";
   break;
 
+  case "btn1119":
+      sponsorText =
+    "🎰 Experience Ultimate Fun at SlotLair Casino! 🌟💰<br><br>Join SlotLair for an electrifying casino experience with top-tier slots, live dealer games, and massive bonuses! New players get a <b>100% Deposit Bonus + 300 Free Spins</b> to kickstart their adventure!<br><br>🔥 <b>Vast Selection of Slots & Live Casino</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at SlotLair now and start winning big!</b> 🎲🏆";
+  break;
+
   }
 
   // Set the image and text in the modal
