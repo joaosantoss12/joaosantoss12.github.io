@@ -113,6 +113,12 @@ function openInfoPanel(button) {
     "🎰 Experience Ultimate Fun at SlotLair Casino! 🌟💰<br><br>Join SlotLair for an electrifying casino experience with top-tier slots, live dealer games, and massive bonuses! New players get a <b>100% Deposit Bonus + 300 Free Spins</b> to kickstart their adventure!<br><br>🔥 <b>Vast Selection of Slots & Live Casino</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at SlotLair now and start winning big!</b> 🎲🏆";
   break;
 
+  case "btn333":
+  sponsorText =
+    "🎯 Unleash Your Luck on Hunt.gg! 💼🔫<br><br>Join <b>Hunt.gg</b> — the ultimate CS2 skin gaming site! Open cases, upgrade your skins, and battle other players for epic rewards. Whether you're hunting for knives, covert skins, or big multipliers, the thrill never stops!<br><br>💥 <b>Massive Selection of CS2 Cases</b><br>⚔️ <b>Upgrader, Battles, and Skin Trade Options</b><br>💸 <b>Instant Withdrawals & Secure Payments</b><br>🎁 <b>Exclusive Bonuses & Events</b><br>⚡ <b>Fast, Fair, and Exciting Gameplay</b><br><br>Don’t wait — <b>join Hunt.gg today and start your winning streak!</b> 🔥🎖️";
+  break;
+
+
   }
 
   // Set the image and text in the modal
