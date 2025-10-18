@@ -119,6 +119,11 @@ function openInfoPanel(button) {
   break;
 
 
+  case "btn10101":
+  sponsorText =
+    "🎰 Experience the Thrill at 888Starz Casino! 💎🔥<br><br>Step into <b>888Starz</b> — your ultimate destination for online casino fun! Spin the reels, try your luck at live tables, and enjoy endless entertainment with thousands of top-tier games and sports betting options.<br><br>💥 <b>Massive Selection of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Fast Payouts & Secure Transactions</b><br>🎁 <b>Welcome Bonuses & Ongoing Promotions</b><br>⚡ <b>Top Providers & Fair Gameplay</b><br><br>Don’t wait — <b>join 888Starz today and feel the rush of real wins!</b> 🏆🎉";
+  break;
+
   }
 
   // Set the image and text in the modal
