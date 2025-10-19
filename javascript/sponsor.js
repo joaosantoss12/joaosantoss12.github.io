@@ -124,6 +124,12 @@ function openInfoPanel(button) {
     "🎰 Experience the Thrill at 888Starz Casino! 💎🔥<br><br>Step into <b>888Starz</b> — your ultimate destination for online casino fun! Spin the reels, try your luck at live tables, and enjoy endless entertainment with thousands of top-tier games and sports betting options.<br><br>💥 <b>Massive Selection of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Fast Payouts & Secure Transactions</b><br>🎁 <b>Welcome Bonuses & Ongoing Promotions</b><br>⚡ <b>Top Providers & Fair Gameplay</b><br><br>Don’t wait — <b>join 888Starz today and feel the rush of real wins!</b> 🏆🎉";
   break;
 
+  case "btn101010":
+  sponsorText =
+    "🔥 Welcome to IgniBet Casino — Where the Action Never Cools Down! 🎰💎<br><br>Step into <b>IgniBet</b> — your premium hub for online casino excitement! Spin, play, and win big with a world-class selection of games, live tables, and sports betting thrills.<br><br>💥 <b>Huge Variety of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Lightning-Fast Payouts & Safe Transactions</b><br>🎁 <b>Exclusive Bonuses & Hot Promotions</b><br>⚡ <b>Trusted Providers & Fair Play Guaranteed</b><br><br>Don’t miss out — <b>join IgniBet today and ignite your winning streak!</b> 🔥🏆🎉";
+  break;
+
+
   }
 
   // Set the image and text in the modal
