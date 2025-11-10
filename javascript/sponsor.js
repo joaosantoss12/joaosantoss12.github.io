@@ -58,7 +58,7 @@ function openInfoPanel(button) {
 
           case "btn14":
           sponsorText =
-          "🔥 Win Big on CSGOBig! 🎲💰<br><br>Join one of the most exciting CS:GO gambling platforms and test your luck in jackpots, case openings, and more! Use my code [VALEK] for an exclusive 10% deposit bonus!<br><br>🎁 <b>Huge Jackpots & Case Openings</b><br>💰 <b>Fair & Secure Gambling System</b><br>🚀 <b>Fast Deposits & Withdrawals</b><br>🎮 <b>Daily Rewards & Promotions</b><br><br>Don't miss your chance—<b>Join CSGOBig now and start winning today!</b> 🔥🔑"  
+          "🔥 Join the Action at LeBull Casino! 🔥💰<br><br>Get ready for an exciting betting adventure at <b>LeBull</b> — packed with top slots, live casino, and thrilling sportsbook action! New players receive <b>25 Free Spins</b> to start spinning right away!<br><br>🔥 <b>Wide Selection of Slots & Live Casino</b><br>⚽ <b>Sports Betting & Live Events</b><br>🔥 <b>Fast & Secure Withdrawals</b><br>🔥 <b>Daily Promotions & Exclusive Rewards</b><br>⚡ <b>User-Friendly Platform & 24/7 Support</b><br><br>Don't wait — <b>join LeBull now and take charge of your winnings!</b> 🐂🔥";
           break;
 
           case "btn15":
@@ -126,7 +126,12 @@ function openInfoPanel(button) {
 
   case "btn101010":
   sponsorText =
-    "🔥 Welcome to IgniBet Casino — Where the Action Never Cools Down! 🎰💎<br><br>Step into <b>IgniBet</b> — your premium hub for online casino excitement! Spin, play, and win big with a world-class selection of games, live tables, and sports betting thrills.<br><br>💥 <b>Huge Variety of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Lightning-Fast Payouts & Safe Transactions</b><br>🎁 <b>Exclusive Bonuses & Hot Promotions</b><br>⚡ <b>Trusted Providers & Fair Play Guaranteed</b><br><br>Don’t miss out — <b>join IgniBet today and ignite your winning streak!</b> 🔥🏆🎉";
+    "🎰 Spin Into Victory at WinSpirit Casino! 🌟💰<br><br>Join <b>WinSpirit</b> — where every spin brings you closer to incredible wins! Enjoy a massive selection of slots, live casino, and sports betting with generous bonuses. New players get a <b>Welcome Bonus up to 400€ + 100 Free Spins</b> on their first deposit!<br><br>🎰 <b>Thousands of Slots & Live Casino Games</b><br>⚽ <b>Sports Betting & Live Events</b><br>💸 <b>Fast Payouts & Secure Transactions</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & User-Friendly Interface</b><br><br>Don't wait — <b>join WinSpirit now and let your winning spirit shine!</b> 🏆✨";
+  break;
+
+  case "btn101011":
+  sponsorText =
+    "🔥 Welcome to IgniBet Casino — Where the Action Never Cools Down! 🎰💎<br><br>Step into <b>IgniBet</b> — your premium hub for online casino excitement! Spin, play, and win big with a world-class selection of games, live tables, and sports betting thrills.<br><br>💥 <b>Huge Variety of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Lightning-Fast Payouts & Safe Transactions</b><br>🎁 <b>Exclusive Bonuses & Hot Promotions</b><br>⚡ <b>Trusted Providers & Fair Play Guaranteed</b><br><br>Don't miss out — <b>join IgniBet today and ignite your winning streak!</b> 🔥🏆🎉";
   break;
 
 
