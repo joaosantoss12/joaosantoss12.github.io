@@ -134,6 +134,9 @@ function openInfoPanel(button) {
     "🔥 Welcome to IgniBet Casino — Where the Action Never Cools Down! 🎰💎<br><br>Step into <b>IgniBet</b> — your premium hub for online casino excitement! Spin, play, and win big with a world-class selection of games, live tables, and sports betting thrills.<br><br>💥 <b>Huge Variety of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Lightning-Fast Payouts & Safe Transactions</b><br>🎁 <b>Exclusive Bonuses & Hot Promotions</b><br>⚡ <b>Trusted Providers & Fair Play Guaranteed</b><br><br>Don't miss out — <b>join IgniBet today and ignite your winning streak!</b> 🔥🏆🎉";
   break;
 
+  case "btn1010111":
+  sponsorText = "🔥 Experience the Ultimate CS:GO Casino Thrill at ForceDrop! 🎰💥<br><br>Dive into the action with <b>ForceDrop</b> — the premier CS:GO casino where every spin and bet brings you closer to epic wins! Open cases, play exciting games, and enjoy exclusive bonuses tailored for CS:GO enthusiasts.<br><br>💥 <b>Massive Selection of CS:GO Cases & Games</b><br>⚔️ <b>Upgrade Skins, Battle Other Players & More</b><br>💸 <b>Instant Withdrawals & Secure Payments</b><br>🎁 <b>Exclusive Bonuses & Daily Promotions</b><br>⚡ <b>Fast, Fair, and Exciting Gameplay</b><br><br>Don't wait — <b>join ForceDrop now and elevate your CS:GO gaming experience!</b> 🔥🎖️";
+  break;
 
   }
 
