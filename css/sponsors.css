@@ -153,10 +153,10 @@ body{
 
 
 .column:nth-child(2) .sponsor:nth-child(1) .sponsor-img img{
-  width: 85%;
+  width: 70%;
 }
 .column:nth-child(2) .sponsor:nth-child(2) .sponsor-img img{
-  width: 75%;
+  width: 90%;
 }
 .column:nth-child(2) .sponsor:nth-child(3) .sponsor-img img{
   width: 75%;
