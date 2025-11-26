@@ -125,7 +125,7 @@ body{
 }
 /* vemabet - now position 1 */
 .column:nth-child(1) .sponsor:nth-child(1) .sponsor-img img{
-  width: 75%;
+  width: 85%;
 }
 
 /* slott - now position 2 */
@@ -135,12 +135,12 @@ body{
 
 /* bcgame - now position 3 */
 .column:nth-child(1) .sponsor:nth-child(3) .sponsor-img img{
-  width:55%;
+  width:75%;
 }
 
 /* 20bet - now position 4 */
 .column:nth-child(1) .sponsor:nth-child(4) .sponsor-img img{
-  width: 78%;
+  width: 55%;
 }
 
 /* roman - now position 5 */
