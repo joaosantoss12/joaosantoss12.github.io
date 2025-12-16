@@ -130,12 +130,12 @@ body{
 
 /* slott - now position 2 */
 .column:nth-child(1) .sponsor:nth-child(2) .sponsor-img img{
-  width:75%;
+  width:60%;
 }
 
 /* bcgame - now position 3 */
 .column:nth-child(1) .sponsor:nth-child(3) .sponsor-img img{
-  width:55%;
+  width:80%;
 }
 
 /* 20bet - now position 4 */
