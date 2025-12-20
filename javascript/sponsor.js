@@ -138,6 +138,11 @@ function openInfoPanel(button) {
   sponsorText = "🔥 Experience the Ultimate CS:GO Casino Thrill at ForceDrop! 🎰💥<br><br>Dive into the action with <b>ForceDrop</b> — the premier CS:GO casino where every spin and bet brings you closer to epic wins! Open cases, play exciting games, and enjoy exclusive bonuses tailored for CS:GO enthusiasts.<br><br>💥 <b>Massive Selection of CS:GO Cases & Games</b><br>⚔️ <b>Upgrade Skins, Battle Other Players & More</b><br>💸 <b>Instant Withdrawals & Secure Payments</b><br>🎁 <b>Exclusive Bonuses & Daily Promotions</b><br>⚡ <b>Fast, Fair, and Exciting Gameplay</b><br><br>Don't wait — <b>join ForceDrop now and elevate your CS:GO gaming experience!</b> 🔥🎖️";
   break;
 
+  /* REELS IO CASINO */
+  case "btnreels": 
+  sponsorText = "🎰 Elevate Your Gaming at Reels.io Casino! 💎🔥<br><br>Step into <b>Reels.io</b> — your ultimate destination for online casino excitement! Spin the reels, try your luck at live tables, and enjoy endless entertainment with thousands of top-tier games and sports betting options.<br><br>💥 <b>Massive Selection of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Fast Payouts & Secure Transactions</b><br>🎁 <b>Welcome Bonuses & Ongoing Promotions</b><br>⚡ <b>Top Providers & Fair Gameplay</b><br><br>Don’t wait — <b>join Reels.io today and feel the rush of real wins!</b> 🏆🎉";
+  break;
+
   /* MINEBIT CASINO */ 
   case "btn9999":
   sponsorText = "🎰 Discover Endless Fun at MineBit Casino! 💎🔥<br><br>Step into <b>MineBit</b> — your ultimate destination for online casino excitement! Spin the reels, try your luck at live tables, and enjoy endless entertainment with thousands of top-tier games and sports betting options.<br><br>💥 <b>Massive Selection of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Fast Payouts & Secure Transactions</b><br>🎁 <b>Welcome Bonuses & Ongoing Promotions</b><br>⚡ <b>Top Providers & Fair Gameplay</b><br><br>Don’t wait — <b>join MineBit today and feel the rush of real wins!</b> 🏆🎉";
