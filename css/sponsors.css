@@ -174,14 +174,14 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     min-width: 6vw;
-    min-height: 8vh;
+    min-height: 9vh;
 
     margin-right:2%;
 }
 
 .sponsor-info p {
     text-transform: uppercase;
-    font-size: 1.2vh;
+    font-size: 1.5vh;
     margin: 0;
 }
 
@@ -209,6 +209,49 @@ body{
 .sponsor-button:hover {
     background-color: #f0f0f0;
     cursor: pointer;
+}
+
+.giveaway-button {
+    padding: 12px 20px;
+    font-size: 1.4vh;
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 2px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-size: 400% 400%;
+    animation: rainbow 3s ease infinite;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.giveaway-button:hover {
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.giveaways-container {
+    overflow-y: auto;
+}
+
+/* Hide scrollbar for giveaways container */
+.giveaways-container::-webkit-scrollbar {
+    display: none;
+}
+
+.giveaways-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 
