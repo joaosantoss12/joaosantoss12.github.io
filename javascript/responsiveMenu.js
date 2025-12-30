@@ -171,3 +171,15 @@ function responsiveMenu5(){
         contacts.className = "estrutura-inicial";
     }
 }
+
+function toggleSocials() {
+    var arrow = document.getElementById('socials-toggle');
+    var links = document.getElementById('social-links');
+    if (links.style.display === 'none' || links.style.display === '') {
+        links.style.display = 'flex';
+        arrow.innerHTML = '&lt;';
+    } else {
+        links.style.display = 'none';
+        arrow.innerHTML = '&gt;';
+    }
+}
