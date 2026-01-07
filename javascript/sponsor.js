@@ -148,8 +148,10 @@ function openInfoPanel(button) {
   sponsorText = "🎰 Discover Endless Fun at MineBit Casino! 💎🔥<br><br>Step into <b>MineBit</b> — your ultimate destination for online casino excitement! Spin the reels, try your luck at live tables, and enjoy endless entertainment with thousands of top-tier games and sports betting options.<br><br>💥 <b>Massive Selection of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Fast Payouts & Secure Transactions</b><br>🎁 <b>Welcome Bonuses & Ongoing Promotions</b><br>⚡ <b>Top Providers & Fair Gameplay</b><br><br>Don’t wait — <b>join MineBit today and feel the rush of real wins!</b> 🏆🎉";
       break;
 
-  }
-
+  case "btnfairpari":
+    sponsorText = "🎰 Discover Fair Wins at FairPari Casino! 🌟💰<br><br>Join FairPari and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus or 150 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at FairPari now and start winning big!</b> 🎲🏆";
+    break;
+}
   
 
   // Set the image and text in the modal
