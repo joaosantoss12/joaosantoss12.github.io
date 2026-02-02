@@ -125,7 +125,7 @@ body{
 }
 /* vemabet - now position 1 */
 .column:nth-child(1) .sponsor:nth-child(1) .sponsor-img img{
-  width: 80%;
+  width: 85%;
 }
 
 /* slott - now position 2 */
