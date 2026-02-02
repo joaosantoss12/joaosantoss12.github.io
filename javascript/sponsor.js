@@ -157,7 +157,6 @@ function openInfoPanel(button) {
   break;
 
   case "btnamonbet":
-
   sponsorText = "🎰 Discover Fair Wins at AmonBet Casino! 🌟💰<br><br>Join AmonBet and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus or 150 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at AmonBet now and start winning big!</b> 🎲🏆";
     break;
 }
