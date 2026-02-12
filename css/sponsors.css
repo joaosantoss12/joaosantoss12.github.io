@@ -130,7 +130,7 @@ body{
 
 /* slott - now position 2 */
 .column:nth-child(1) .sponsor:nth-child(2) .sponsor-img img{
-  width:80%;
+  width:55%;
 }
 
 /* bcgame - now position 3 */
