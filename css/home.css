@@ -61,6 +61,21 @@ body{
     color:white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.kick-followers{
+    background-color: #353152;
+    padding:10px;
+    margin-right:35px;
+    border-radius: 25px;
+    border:2px solid rgb(11, 11, 190);
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.kick-followers span:last-child{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .instagram-followers{
     background-color: #353152;
     padding:10px;
