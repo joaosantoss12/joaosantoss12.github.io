@@ -125,7 +125,7 @@ body{
 }
 /* vemabet - now position 1 */
 .column:nth-child(1) .sponsor:nth-child(1) .sponsor-img img{
-  width: 80%;
+  width: 90%;
 }
 
 /* slott - now position 2 */
@@ -153,7 +153,7 @@ body{
 
 
 .column:nth-child(2) .sponsor:nth-child(1) .sponsor-img img{
-  width: 85%;
+  width: 75%;
 }
 .column:nth-child(2) .sponsor:nth-child(2) .sponsor-img img{
   width: 80%;
