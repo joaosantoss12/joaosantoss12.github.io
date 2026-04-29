@@ -175,6 +175,18 @@ function openInfoPanel(button) {
   case "btnqzino":
     sponsorText = "🎰 Discover Fair Wins at Qzino Casino! 🌟💰<br><br>Join Qzino and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus or 150 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at Qzino now and start winning big!</b> 🎲🏆";
     break;
+
+  case "btnwelle":
+    sponsorText = "🎰 Discover Fair Wins at Welle Casino! 🌟💰<br><br>Join Welle and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus or 150 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at Welle now and start winning big!</b> 🎲🏆";
+    break;
+
+  case "btnwelbet":
+    sponsorText = "🎰 Discover Fair Wins at WelBet Casino! 🌟💰<br><br>Join WelBet and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus or 150 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at WelBet now and start winning big!</b> 🎲🏆";
+    break;
+
+  case "btn22bit":
+    sponsorText = "🎰 Discover Fair Wins at 22Bet Casino! 🌟💰<br><br>Join 22Bet and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus or 150 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at 22Bet now and start winning big!</b> 🎲🏆";
+    break;
 }
 
   // Set the image and text in the modal
