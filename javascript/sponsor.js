@@ -187,7 +187,10 @@ function openInfoPanel(button) {
   case "btn22bit":
     sponsorText = "🎰 Discover Fair Wins at 22Bet Casino! 🌟💰<br><br>Join 22Bet and experience a world of top-tier slots, live casino action, and sports betting excitement! New players get a <b>100% Welcome Bonus or 150 Free Spins</b> on their first deposit!<br><br>🔥 <b>Thousands of Casino Games & Sports Events</b><br>💸 <b>Fast Withdrawals & Crypto-Friendly</b><br>🎁 <b>Daily Promotions & VIP Rewards</b><br>⚡ <b>24/7 Support & Secure Transactions</b><br><br>Don’t miss out—<b>sign up at 22Bet now and start winning big!</b> 🎲🏆";
     break;
-}
+  case "btnleon":
+    sponsorText = "🎰 Join the Action at Leon Casino! 🎰<br><br>Experience top-tier casino games, amazing bonuses, and non-stop excitement at Leon Casino! Use my code [VALEK] to unlock exclusive rewards and start playing today!<br><br>💎 Huge Welcome Bonus & Free Spins<br>🎮 Wide Variety of Games & Slots<br>⚡ Fast Withdrawals & Secure Transactions<br>🎁 Daily Promotions & VIP Perks<br><br>Don’t miss out—sign up now and hit the jackpot at Leon Casino! 💰🚀";
+    break;
+  }
 
   // Set the image and text in the modal
   document.getElementById("modalImage").src = sponsorImage;
