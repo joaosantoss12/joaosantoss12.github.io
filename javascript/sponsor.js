@@ -190,7 +190,13 @@ function openInfoPanel(button) {
   case "btnleon":
     sponsorText = "🎰 Join the Action at Leon Casino! 🎰<br><br>Experience top-tier casino games, amazing bonuses, and non-stop excitement at Leon Casino! Use my code [VALEK] to unlock exclusive rewards and start playing today!<br><br>💎 Huge Welcome Bonus & Free Spins<br>🎮 Wide Variety of Games & Slots<br>⚡ Fast Withdrawals & Secure Transactions<br>🎁 Daily Promotions & VIP Perks<br><br>Don’t miss out—sign up now and hit the jackpot at Leon Casino! 💰🚀";
     break;
+
+    case "btnbetriviera":
+      sponsorText = "🎰 Experience the Glamour of BetRiviera Casino! 🌟💰<br><br>Step into <b>BetRiviera</b> — your ultimate destination for online casino excitement! Spin the reels, try your luck at live tables, and enjoy endless entertainment with thousands of top-tier games and sports betting options.<br><br>💥 <b>Massive Selection of Slots & Live Casino Games</b><br>🎲 <b>Sportsbook, Poker, and Virtual Games</b><br>💸 <b>Fast Payouts & Secure Transactions</b><br>🎁 <b>Welcome Bonuses & Ongoing Promotions</b><br>⚡ <b>Top Providers & Fair Gameplay</b><br><br>Don’t wait — <b>join BetRiviera today and feel the rush of real wins!</b> 🏆🎉";
+      break;
   }
+
+  
 
   // Set the image and text in the modal
   document.getElementById("modalImage").src = sponsorImage;
